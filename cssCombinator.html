@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML CSS COMBINATORS CARDS</title>
+    <style>
+        *{
+            background-color: #f6f6f6;
+        }
+        #container {
+            width: 75%;
+            padding: 0px;
+            margin: 0px;
+            margin: auto;
+            font-family: sans-serif;
+            display: flex;
+        }
+        .card {
+            width: 30%;
+            border: 1px solid #f8f8f8;
+            margin: auto;
+            margin-top: 18px;
+            background-color: white;
+        }
+        #container > .card > img {
+            width: 100%;
+        }
+        #container > .card > h2{
+            width: 90%;
+            margin: auto;
+            background-color: white;
+            margin-top: 4%;
+        }
+        #container > .card > p {
+            color: grey;
+            font-size: 17px;
+            background-color: white;
+            letter-spacing: .5px;
+            margin-top: 8%;
+        }
+        #container > .card > p > span {
+            color: red;
+            font-weight: bold;
+            background-color: white;
+            margin-left: 5%;
+            letter-spacing: 2px;
+            font-size: 17px;
+        }
+        #container > .card.card2 >p{
+            margin-top: 16.5%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="card">
+            <img src="https://ichef.bbci.co.uk/news/1024/branded_news/84E3/production/_121591043_gchqcheltenham.jpg" alt="">
+            <h2>UK and US join forces to
+                strike back in cyber-
+                space</h2>
+                <p><span>I</span> TECHNOLOGY</p>
+        </div>
+        <div class="card card2">
+            <img src="https://ichef.bbci.co.uk/news/1024/branded_news/A5B3/production/_121591424_gaga.jpg" alt="">
+            <h2>Lady Gaga took personal
+                trauma into Gucci role</h2>
+                <p><span>I</span> ENTERTAINMENT & ARTS</p>
+        </div>
+        <div class="card">
+            <img src="https://c.files.bbci.co.uk/BE25/production/_121577684_jennybestandtwins.jpg" alt="">
+            <h2>UK and US join forces to
+                strike back in cyber-
+                space</h2>
+                <p><span>I</span> BUSINESS</p>
+        </div>
+    </div>
+    <div id="container">
+        <div class="card">
+            <img src="https://ichef.bbci.co.uk/news/1024/branded_news/10A7A/production/_121581286_shukmanhi071617079.jpg" alt="">
+            <h2>I've seen irreversible change but hope too for planet'</h2>
+                <p><span>I</span> SCIENCE & ENVIRONMENT</p>
+        </div>
+        <div class="card">
+            <img src="https://ichef.bbci.co.uk/news/1024/branded_news/84A7/production/_121595933_976_afp_gettyimages-1236617930.jpg" alt="">
+            <h2>Full force of Covid hitting Germany, warns Merkel</h2>
+                <p><span>I</span> EUROPE</p>
+        </div>
+        <div class="card card2">
+            <img src="https://ichef.bbci.co.uk/news/1024/branded_news/24AD/production/_121598390_hi071983362.jpg" alt="">
+            <h2>Baby elephant dies after losing half its trunk</h2>
+                <p><span>I</span> ASIA</p>
+        </div>
+    </div>
+</body>
+</html>
